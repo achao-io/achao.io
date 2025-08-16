@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.content {
+    max-width: 750px;
+}
+
+.description {
+    margin-bottom: 40px;
+    white-space: pre-line;
+}
+
+.contact {
+    font-weight: bold;
+} 
